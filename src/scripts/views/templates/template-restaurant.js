@@ -4,7 +4,7 @@ import CONFIG from '../../global/config';
 const listRestaurantCard = (resto) => `
 <a href="#/detail/${resto.id}" class="cards">
 <div class="cards">
-<img class="lazyload" src="${CONFIG.BASE_IMAGE_URL + resto.pictureId}" alt="${resto.name}" />
+<img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL + resto.pictureId}" alt="${resto.name}" />
 <div class="card-body">
 <p tabindex="0">Rating: ${resto.rating}</p>
   <h3 class="card-title" tabindex="0">${resto.name}</h3>

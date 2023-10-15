@@ -110,6 +110,12 @@ li > a:focus {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .hero {
+    background-image: url(../public/images/heros/hero-image.jpg);
+  }
+}
+
 .overlay {
   position: unset;
   width: 100%;
