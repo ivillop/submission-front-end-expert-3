@@ -40,7 +40,7 @@ class FavoriteRestaurantView {
   _getEmptyRestaurantTemplate() {
     return `
       <div class="restaurant-item__not__found">
-        Tidak ada film untuk ditampilkan
+        Tidak ada restoran untuk ditampilkan
       </div>
     `;
   }
